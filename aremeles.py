@@ -1,5 +1,5 @@
-ar = input(int("Az alkatresz jelenlegi ara: "))
-emeles = input(float("Aremeles (szazalekban): "))
+ar = int(input("Az alkatresz jelenlegi ara: "))
+emeles = float(input("Aremeles (szazalekban): "))
 
 aremeles = ar*(emeles/100)
 
